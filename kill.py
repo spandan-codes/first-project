@@ -1,4 +1,4 @@
-edrock="red rock"
+rock="red rock"
 if rock=="red rock":
     print("yes")
 else:
