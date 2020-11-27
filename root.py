@@ -21,4 +21,4 @@ while True:
 		break
 	else:
 		print("i don't understand that command")
-print)("bhoi rox")
+print("bhoi rox")
