@@ -4,3 +4,5 @@ if rock=="red rock":
 else:
     print("no")
 print("hello world")
+
+r=True

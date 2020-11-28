@@ -1,4 +1,6 @@
-rd=True
+import kill
+
+rd=kill.r
 started=False
 while True:
 	q=input("(type help for commands)>").lower()
