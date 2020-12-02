@@ -1,12 +1,18 @@
-emote={
-"sad":":(",
-"happy":":)",
-"lol":"xD"
 
-}
+
+def emoji_converter(message):
+    emote={
+    "sad":":(",
+    "happy":":)",
+    "lol":"xD"
+
+    }
+    l=""
+    words=message.split(" ")
+    for w in words:
+        l+=emote.get(w,w)+" "
+    return l
+
 message=input("comment>")
-words=message.split(" ")
-l=""
-for w in words:
-    l+=emote.get(w,w)+" "
-print(l)
+print(emoji_converter(message))
+
